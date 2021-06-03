@@ -74,6 +74,7 @@ export class BoardComponent implements OnInit {
     this.moves = 0;
     this.finished = false;
     this.switchPlayer();
+    this.msg = ""
   }
 
   getColumn(num: number): string[]{
