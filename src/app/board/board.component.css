@@ -1,0 +1,32 @@
+.row{
+    padding: 0;
+    list-style-type: none;
+    margin: 0.125rem 0 0.125rem 0;
+}
+.row_item{
+    padding: 0;
+    margin: 0 0.125rem 0 0.125rem;
+}
+.grid_box {
+    background-color: #eee;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    color: black;
+    padding: 0rem;
+    width: 10rem;
+    height: 10rem;
+    margin: 0.125rem 0.125rem 0.125rem 0.125rem;
+    vertical-align: middle;
+    font-size: 5rem;
+}
+.grid_box:hover {
+    background-color: black;
+    color: white;
+}
+.board {
+    display: inline-block;
+    background-color: red;
+    padding: 0;
+    margin: 0 0 0 0;
+}
